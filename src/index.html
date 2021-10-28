@@ -43,7 +43,7 @@ const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a));
 
 const d = R * c; // in metres
 
-console.log ("You are exactly "+Math.round(d,4) +" meters (straight line dist) away from Sikandra (Agra)");
+console.log ("You are exactly "+Math.round(d) +" meters (straight line dist) away from Sikandra (Agra)");
 
   mapLink.href = `https://www.google.com/maps/search/?api=1&query=${latitude}%2C${longitude}`;
   mapLink.textContent = `Latitude: ${latitude} °, Longitude: ${longitude} °`;
